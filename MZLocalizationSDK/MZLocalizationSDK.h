@@ -2,8 +2,8 @@
 //  MZLocalizationSDK.h
 //  MZLocalizationSDK
 //
-//  Created by mikezhu on 29/12/2018.
-//  Copyright © 2018 mikezhu. All rights reserved.
+//  Created by Mike Zhu on 29/12/2018.
+//  Copyright © 2018 Mike Zhu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double MZLocalizationSDKVersionNumber;
 //! Project version string for MZLocalizationSDK.
 FOUNDATION_EXPORT const unsigned char MZLocalizationSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <MZLocalizationSDK/PublicHeader.h>
-
-
+#import "MZLocalizationSDKCore.h"
+#import "MZLocalizationProvider.h"
+#import "MZLocalizationService.h"
+#import "MZLocalizationFactory.h"
+#import "MZLocalizationConstants.h"

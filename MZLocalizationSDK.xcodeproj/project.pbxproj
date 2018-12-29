@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		BDDC64CC21D74EF70005AA38 /* MZLocalizationSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64CA21D74EF70005AA38 /* MZLocalizationSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC64DC21D74F280005AA38 /* MZLocalizationDefaultFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64D321D74F260005AA38 /* MZLocalizationDefaultFactory.h */; };
+		BDDC64DD21D74F280005AA38 /* MZLocalizationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64D421D74F260005AA38 /* MZLocalizationManager.h */; };
+		BDDC64DF21D74F280005AA38 /* MZLocalizationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64D621D74F270005AA38 /* MZLocalizationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC64E021D74F280005AA38 /* MZLocalizationDefaultFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC64D721D74F270005AA38 /* MZLocalizationDefaultFactory.m */; };
+		BDDC64E121D74F280005AA38 /* MZLocalizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64D821D74F270005AA38 /* MZLocalizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC64E221D74F280005AA38 /* MZLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC64D921D74F270005AA38 /* MZLocalizationManager.m */; };
+		BDDC64E721D750710005AA38 /* NSError+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64E521D750710005AA38 /* NSError+Localization.h */; };
+		BDDC64E821D750710005AA38 /* NSError+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC64E621D750710005AA38 /* NSError+Localization.m */; };
+		BDDC64EB21D751F20005AA38 /* MZLocalizationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64E921D751F20005AA38 /* MZLocalizationConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC64EC21D751F20005AA38 /* MZLocalizationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC64EA21D751F20005AA38 /* MZLocalizationConstants.m */; };
+		BDDC64F121D757BC0005AA38 /* MZLocalizationSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC64EF21D757BC0005AA38 /* MZLocalizationSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC64F221D757BC0005AA38 /* MZLocalizationSDKCore.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC64F021D757BC0005AA38 /* MZLocalizationSDKCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDDC64C721D74EF70005AA38 /* MZLocalizationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZLocalizationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDC64CA21D74EF70005AA38 /* MZLocalizationSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZLocalizationSDK.h; sourceTree = "<group>"; };
 		BDDC64CB21D74EF70005AA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDC64D321D74F260005AA38 /* MZLocalizationDefaultFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLocalizationDefaultFactory.h; sourceTree = "<group>"; };
+		BDDC64D421D74F260005AA38 /* MZLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLocalizationManager.h; sourceTree = "<group>"; };
+		BDDC64D621D74F270005AA38 /* MZLocalizationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLocalizationFactory.h; sourceTree = "<group>"; };
+		BDDC64D721D74F270005AA38 /* MZLocalizationDefaultFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLocalizationDefaultFactory.m; sourceTree = "<group>"; };
+		BDDC64D821D74F270005AA38 /* MZLocalizationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLocalizationService.h; sourceTree = "<group>"; };
+		BDDC64D921D74F270005AA38 /* MZLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLocalizationManager.m; sourceTree = "<group>"; };
+		BDDC64E521D750710005AA38 /* NSError+Localization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+Localization.h"; sourceTree = "<group>"; };
+		BDDC64E621D750710005AA38 /* NSError+Localization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+Localization.m"; sourceTree = "<group>"; };
+		BDDC64E921D751F20005AA38 /* MZLocalizationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZLocalizationConstants.h; sourceTree = "<group>"; };
+		BDDC64EA21D751F20005AA38 /* MZLocalizationConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZLocalizationConstants.m; sourceTree = "<group>"; };
+		BDDC64EF21D757BC0005AA38 /* MZLocalizationSDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZLocalizationSDKCore.h; sourceTree = "<group>"; };
+		BDDC64F021D757BC0005AA38 /* MZLocalizationSDKCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZLocalizationSDKCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +70,46 @@
 		BDDC64C921D74EF70005AA38 /* MZLocalizationSDK */ = {
 			isa = PBXGroup;
 			children = (
+				BDDC64EE21D757A80005AA38 /* Core */,
+				BDDC64ED21D757900005AA38 /* Localization */,
+				BDDC64E421D750370005AA38 /* Util */,
 				BDDC64CA21D74EF70005AA38 /* MZLocalizationSDK.h */,
 				BDDC64CB21D74EF70005AA38 /* Info.plist */,
 			);
 			path = MZLocalizationSDK;
+			sourceTree = "<group>";
+		};
+		BDDC64E421D750370005AA38 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC64E921D751F20005AA38 /* MZLocalizationConstants.h */,
+				BDDC64EA21D751F20005AA38 /* MZLocalizationConstants.m */,
+				BDDC64E521D750710005AA38 /* NSError+Localization.h */,
+				BDDC64E621D750710005AA38 /* NSError+Localization.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BDDC64ED21D757900005AA38 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC64D821D74F270005AA38 /* MZLocalizationService.h */,
+				BDDC64D421D74F260005AA38 /* MZLocalizationManager.h */,
+				BDDC64D921D74F270005AA38 /* MZLocalizationManager.m */,
+				BDDC64D621D74F270005AA38 /* MZLocalizationFactory.h */,
+				BDDC64D321D74F260005AA38 /* MZLocalizationDefaultFactory.h */,
+				BDDC64D721D74F270005AA38 /* MZLocalizationDefaultFactory.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		BDDC64EE21D757A80005AA38 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC64EF21D757BC0005AA38 /* MZLocalizationSDKCore.h */,
+				BDDC64F021D757BC0005AA38 /* MZLocalizationSDKCore.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +119,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDC64DC21D74F280005AA38 /* MZLocalizationDefaultFactory.h in Headers */,
+				BDDC64E721D750710005AA38 /* NSError+Localization.h in Headers */,
+				BDDC64F121D757BC0005AA38 /* MZLocalizationSDKCore.h in Headers */,
 				BDDC64CC21D74EF70005AA38 /* MZLocalizationSDK.h in Headers */,
+				BDDC64DD21D74F280005AA38 /* MZLocalizationManager.h in Headers */,
+				BDDC64E121D74F280005AA38 /* MZLocalizationService.h in Headers */,
+				BDDC64DF21D74F280005AA38 /* MZLocalizationFactory.h in Headers */,
+				BDDC64EB21D751F20005AA38 /* MZLocalizationConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDC64E821D750710005AA38 /* NSError+Localization.m in Sources */,
+				BDDC64E021D74F280005AA38 /* MZLocalizationDefaultFactory.m in Sources */,
+				BDDC64E221D74F280005AA38 /* MZLocalizationManager.m in Sources */,
+				BDDC64F221D757BC0005AA38 /* MZLocalizationSDKCore.m in Sources */,
+				BDDC64EC21D751F20005AA38 /* MZLocalizationConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
